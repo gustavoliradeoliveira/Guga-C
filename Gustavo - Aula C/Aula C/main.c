@@ -90,7 +90,7 @@ double preco, desconto, novoPreco;
 
     printf("Valor de x: %d\n", x);
 */
-
+/*
 int a, b, x, v, h, j;
     printf("Informe o Primeiro Caracter:");
     scanf("%d", &a);
@@ -105,12 +105,7 @@ int a, b, x, v, h, j;
 
 
 
-
-    #include <stdio.h>
-#include <stdlib.h>
-
-int main()
-{
+*/
 /*
     int num1;
     int num2;
@@ -222,15 +217,15 @@ printf("escreva um Numero Inteiro");
     printf("Novo valor: %d\n", s);
 */
 
-    
-    
-    
-    
-    
-    
-    
-    Aula dia 08/09/2025
-/*
+
+
+
+
+
+
+
+/*    Aula dia 08/09/2025
+
 int raio, area, perimetro;
 double pi = 3,14;
 
@@ -303,7 +298,7 @@ float valor, imposto, pcDistribuidor;
 Printf("Informe o valor de Fabrica %fl", &valor);
 Scan
 */
-
+/*
 int
 
  return 0;
@@ -311,7 +306,37 @@ int
 }
      printf("Multiplicação : %d\n Divisão: %d\n Soma: %d\n Subtração: %d\n", x,v,h,j);
 
+*/
+
+/*
+double fabrica, dist, imposto, custo;
+printf("Informe o custo da fabrica:");
+scanf("%lf", &fabrica);
+dist = fabrica * 0.45;
+custo = fabrica + dist + imposto;
+printf("o custo total eh: %.2lf\n", custo);
+*/
+
+
+/*
+int num, dezena, aux;
+printf("Informe o um Numero de 3 digitos:");
+scanf("%d", &num);
+aux = num/10;
+printf("Divisão por 10: ", aux);
+dezena = aux % 10;
+printf("dezena: %d\n", dezena);]
+*/
+
+int num, dia, mes, ano, aux;
+printf("Informe o um Numero de 6 digitos:");
+scanf("%d", &num);
+dia = num/10000;
+aux = num %10000;
+mes = aux/100;
+ano = aux % 100;
+printf("Dia: %d, Mes: %d, Ano: %d", dia, mes, ano);
+
 
     return 0;
 }
-
