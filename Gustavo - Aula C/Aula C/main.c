@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main()
 {
@@ -338,5 +339,78 @@ ano = aux % 100;
 printf("Dia: %d, Mes: %d, Ano: %d", dia, mes, ano);
 
 
+
+Formulas matematicas
+
+
+
+/*     Hipotenusa
+double angulo, seno, cosseno, tangente;
+printf("Informe o valor do angulo:");
+scanf("%lf", &angulo);
+seno = sin(angulo);
+cosseno = cos(angulo);
+tangente = tan(angulo);
+printf("seno: %.2lf\n", seno);
+printf("Cosseno: %.2lf\n", cosseno);
+printf("Tangente: %.2lf\n", tangente);
+
+*/
+
+/*  Raiz Quadrada
+double num, raiz;
+printf("informe um numero:");
+scanf("%lf", &num);
+raiz =sqrt(num);
+printf("A raiz do numero eh: %.2lf.\n", raiz);
+
+*/
+
+/*
+        Elevar o Numero por Y
+double x, y, resultado;
+printf("informe o valor de X:");
+scanf("%lf", &x);
+printf("informe o valor de Y:");
+scanf("%lf", &y);
+resultado = pow(x,y);
+printf("Resultado: %.2lf\n", resultado);
+*/
+
+
+/*
+double num;
+printf("Informe um numero:");
+scanf("%lf", &num);
+printf("Floor: %lf\n", floor(num));
+printf("Ceil: %lf\n", ceil(num));
+printf("Round: %lf\n", round(num));
+*/
+/* Escreva um algoritmo em c que recebe do usuario um numero e op imprime seu quadrado e seu cubo
+double num, quadrado, cubo;
+printf("informe um numero:");
+scanf("%lf", &num);
+quadrado =pow(num,2);
+cubo = pow(num,3);
+printf("Quadrado: %.2lf.\n Cubo: %.2lf.\n", quadrado, cubo);
+*/
+
+
+double x, y, resultado;
+printf("informe o primeiro numero:");
+scanf("%lf", &x);
+printf("informe o segundo numero:");
+scanf("%lf", &y);
+resultado = sqrt(x*y);
+printf("Resultado: %.2lf.\n", resultado);
+
+
+    return 0;
+
+
+
+    
+
     return 0;
 }
+
